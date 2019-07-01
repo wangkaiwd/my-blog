@@ -5,7 +5,7 @@
 # Site
 title: 为梦想前进
 subtitle: Enjoy what are you doing!
-description: 个人博客
+description: personal blog
 keywords: 
 author: wangkaiwd
 language: chinese
@@ -80,3 +80,4 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:wangkaiwd/my-blog.git
+  
