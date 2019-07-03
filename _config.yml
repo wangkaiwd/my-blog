@@ -3,14 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 为梦想前进
+title: wangkaiwd的博客
 subtitle: Enjoy what are you doing!
-description: personal blog
-keywords: 
+description: 前端路上不断执着前进的小菜鸡
 author: wangkaiwd
-language: chinese
-timezone:
-
+email: wangkaiwd73@gmail.com
+keyword: 前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wangkaiwd.github.io/
@@ -73,11 +71,30 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:wangkaiwd/my-blog.git
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
   
