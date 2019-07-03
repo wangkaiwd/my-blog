@@ -11,8 +11,8 @@ email: wangkaiwd73@gmail.com
 keyword: 前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wangkaiwd.github.io/
-root: /my-blog/
+url: https://github.com/wangkaiwd/wangkaiwd.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,7 +77,8 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:wangkaiwd/my-blog.git
+  # 注意这里的域名必须设置为username.github.io.git，否则会导致图片等静态资源无法正常显示
+  repo: git@github.com:wangkaiwd/wangkaiwd.github.io.git
 
 jsonContent:
   meta: false
