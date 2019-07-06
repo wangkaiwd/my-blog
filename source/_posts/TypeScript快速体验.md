@@ -13,6 +13,8 @@ tags:
   * 英文：[`TypeScript in 5 minutes`](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)  
   * 中文：[5分钟上手`TypeScript`](https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html)
 
+<!-- more -->
+
 ### 编译第一个`.ts`文件
 要使用`typescript`,首先我们通过`yarn`全局安装`typescript`:  
 ```text
@@ -46,7 +48,6 @@ yarn config set prefix ~/.yarn
 vim ~/.zshrc
 export PATH="$PATH:`yarn global bin`"
 ```
-
 执行上述代码之后保存退出`vim`模式，重新执行:  
 ```text
 yarn global add typescript
