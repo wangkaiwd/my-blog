@@ -2,6 +2,7 @@
 title: TypeScript基础类型
 date: 2019-07-06 17:30:06
 tags:
+- TypeScript
 ---
 ## 数据类型
 这里我们以`JavaScript`为基础来讲一下`TypeScript`的数据类型：  
